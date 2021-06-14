@@ -17,7 +17,7 @@ eval $(ejson2env secrets.ejson)
 ```
 
 #### Quản lý secrets.ejson
-Để giải mã  `secrets.ejson` cho mục đính chỉnh sửa, chạy:
+Để giải mã  `secrets.ejson` cho mục đích chỉnh sửa, chạy:
 ```bash
 $ ejson decrypt secrets.ejson -o secrets_unencrypted.ejson
 ```
