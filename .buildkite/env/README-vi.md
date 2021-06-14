@@ -13,7 +13,7 @@ Sau đó lấy "keypair" và đặt nó vào `/opt/ejson/keys/`.
 #### Sử dụng
 Chạy dòng lệnh sau để giải mã secrets ra môi trường:
 ```bash
-eval $(ejson2env secrets.ejson)
+$ eval $(ejson2env secrets.ejson)
 ```
 
 #### Quản lý secrets.ejson
