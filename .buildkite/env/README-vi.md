@@ -8,7 +8,7 @@ tokens and other secrets required for CI.
 $ sudo gem install ejson ejson2env
 ```
 
-Sau đo lấy được  keypair và đặt nó vào `/opt/ejson/keys/`.
+Sau đó lấy "keypair" và đặt nó vào `/opt/ejson/keys/`.
 
 #### Sử dụng
 Chạy dòng lệnh sau để giải mã secrets ra môi trường:
